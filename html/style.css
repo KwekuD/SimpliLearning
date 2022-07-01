@@ -13,9 +13,19 @@ ul li{
     float: left;
     width: 200px;
     height: 40px;
-    background-color: aqua;
+    background-color: wheat;
     opacity: .9;
     line-height: 40px;
     text-align: left;
     font-size: 20px;
+}
+ul li a:hover{
+    background-color: burlywood;
+}
+
+ul li ul li{
+    display: flex;
+}
+ul li:hover ul li{
+    display: inline-flex;
 }
